@@ -1,0 +1,27 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: fantasy;
+  line-height: 1.4;
+}
+
+a{
+  color: blueviolet;
+  text-decoration: none;
+}
+
+.btn-addtodoitem{
+  display: inline-block;
+  border: none;
+  background: grey;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.btn-addtodoitem:hover{
+  background: darkgrey;
+}
